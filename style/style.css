@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Syne:wght@400;600;800&display=swap');
+
+/* Initial Params */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Nunito, sans-serif;
+    background-color: #ffebe2;
+    color: #363636;
+    gap: 15vh;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10vh;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.navMenu a {
+    color: white;
+}
+
+#right {
+    text-align: end;
+}
+
+/* Landing */
+
+.landing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 3vh;
+}
+
+.landingImage {
+    width: 60%;
+}
+
+.landingDescription {
+    text-align: center;
+    font-family: Syne, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.callToActionButtons {
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 1.2rem 0;
+    background-color: #f06c13;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    font-family: Syne, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.callToAction:hover {
+    background-color: #bb4f0d;
+    color: white;
+}
+
+#submitProjectButton {
+    background-color: #1f1f1f;
+    color: #f06c13;
+}
+
+#submitProjectButton:hover {
+    background-color: #494949;
+    color: white;
+}
+
+/* Entreprise */
+
+.entreprise {
+    width: 97%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+}
