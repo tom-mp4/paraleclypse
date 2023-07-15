@@ -15,7 +15,7 @@ body {
     font-family: Nunito, sans-serif;
     background-color: #ffe6dc;
     color: #1f1f1f;
-    gap: 20vh;
+    gap: 30vh;
 }
 
 /* Header */
@@ -88,7 +88,7 @@ body {
     padding: 1.2rem 0;
     background-color: #f06c13;
     border-radius: 10px;
-    color: black;
+    color: #1f1f1f;
     font-weight: 600;
     font-family: Syne, sans-serif;
     text-transform: uppercase;
@@ -147,13 +147,66 @@ body {
     line-height: 40px;
 }
 
-/*.enterpriseTitle {
+/* Projects */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    border-radius: 25px;
+    padding: 4rem 0;
+    width: 90%;
+    height: 80vh;
+}
+
+.projectDecoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.projectDecoration p {
+    color: white;
+    text-transform: uppercase;
+    font-family: Syne, sans-serif;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    width: 55vw;
+}
+
+.projectInfos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    gap: 1rem;
+}
+
+.projectTextPart {
+    gap: 1rem;
+    width: 45%;
+}
+
+.projectTitle {
     font-family: Syne, sans-serif;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
-    width: fit-content;
-    border-right: 1px solid #ffb793;
-}*/
+    color: white;
+}
+
+.projectDescription {
+    color: white;
+    font-size: 18px;
+}
+
+#projectButton {
+    width: 20%;
+}
 
 
