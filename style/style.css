@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Nunito, sans-serif;
-    background-color: #ffebe2;
-    color: #363636;
+    background-color: #ffe6dc;
+    color: #1f1f1f;
     gap: 15vh;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .navMenu a {
-    color: white;
+    color: #1f1f1f;
 }
 
 #right {
@@ -95,7 +95,7 @@ body {
 }
 
 .callToAction:hover {
-    background-color: #bb4f0d;
+    background-color: #d96117;
     color: white;
 }
 
@@ -109,11 +109,33 @@ body {
     color: white;
 }
 
-/* Entreprise */
+/* Enterprise */
 
-.entreprise {
+.enterprise {
+    display: flex;
     width: 97%;
     height: 80vh;
     background-color: white;
     border-radius: 10px;
+}
+
+.enterpriseQuestions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.enterpriseImg {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.enterpriseTitle {
+    font-family: Syne, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
 }
