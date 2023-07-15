@@ -15,7 +15,7 @@ body {
     font-family: Nunito, sans-serif;
     background-color: #ffe6dc;
     color: #1f1f1f;
-    gap: 15vh;
+    gap: 20vh;
 }
 
 /* Header */
@@ -25,7 +25,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 10vh;
 }
 
 /* Navbar */
@@ -56,8 +55,10 @@ body {
 .landing {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 50%;
+    height: 80vh;
     gap: 3vh;
 }
 
@@ -109,37 +110,50 @@ body {
     color: white;
 }
 
-/* Enterprise */
-
-.enterprise {
+.scrolling {
     display: flex;
-    width: 97%;
-    height: 80vh;
-    background-color: white;
-    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
-.enterpriseQuestions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
+
+.scrolling img {
     width: 50%;
 }
 
-.enterpriseImg {
-    width: 30%;
-    border-radius: 10px;
+
+/* Video */
+
+.presentingVideo {
+    width: 100%;
 }
 
-.enterpriseTitle {
+/* Company */
+
+.companyDescription {
+    display: flex;
+    justify-content: center;
+}
+
+.companyDescription p {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: Syne, sans-serif;
+    font-size: 32px;
+    width: 70%;
+    line-height: 40px;
+}
+
+/*.enterpriseTitle {
     font-family: Syne, sans-serif;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
-}
+    width: fit-content;
+    border-right: 1px solid #ffb793;
+}*/
 
-.enterpriseDescription {
-    display: flex;
-}
+
