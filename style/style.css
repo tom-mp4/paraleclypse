@@ -217,39 +217,26 @@ body {
     align-items: center;
     flex-direction: column;
     width: 90%;
-    height: 80vh;
-    gap: 0.5rem;
 }
 
-.professionalContact {
-    display: flex;
-    gap: 0.5rem;
+.contactLine {
+    border-bottom: solid 1px #1f1f1f;
     width: 100%;
-    height: 80%;
 }
 
-.professionalContactCard {
+.contactButton {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-    background-color: white;
-}
-
-#directorContact {
-    border-radius: 25px 0 0 0;
-}
-
-#theaterContact {
-    border-radius: 0 25px 0 0;
-}
-
-.otherContact {
-    background-color: deeppink;
+    justify-content: space-between;
+    height: 15vh;
     width: 100%;
-    height: 20%;
-    border-radius: 0 0 25px 25px;
+    color: #1f1f1f;
+    font-family: Syne, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
 }
 
+.contactImg {
+    rotate: -90deg;
+    width: 3rem;
+}
