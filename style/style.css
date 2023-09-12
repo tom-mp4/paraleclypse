@@ -236,7 +236,26 @@ body {
     font-weight: 700;
 }
 
+.contactButton:hover {
+
+}
+
 .contactImg {
     rotate: -90deg;
     width: 3rem;
+}
+
+.cinemaMap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.mapTitle {
+    font-family: Syne, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
 }
