@@ -222,6 +222,7 @@ body {
 .contactLine {
     border-bottom: solid 1px #1f1f1f;
     width: 100%;
+    padding: 0 2%;
 }
 
 .contactButton {
@@ -234,10 +235,13 @@ body {
     font-family: Syne, sans-serif;
     font-size: 36px;
     font-weight: 700;
+    transition: all 0.2s;
+    padding: 0 2%;
 }
 
 .contactButton:hover {
-
+    background-color: #f06c13;
+    color: white;
 }
 
 .contactImg {
@@ -245,39 +249,149 @@ body {
     width: 3rem;
 }
 
+/* Cinema Map */
+
 .cinemaMap {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+
+    border-radius: 25px;
+    height: 50vh;
+    width: 90%;
+    background-image: url('../assets/img/cinema.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.cinemaMapContent {
+    display: flex;
+    flex-direction: column;
+
     width: 70%;
+    gap: 15px;
+
+    color: white;
 }
 
 .mapTitle {
     font-family: Syne, sans-serif;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 40px;
 }
 
-.mapIntegration {
-    border-radius: 20px;
-    width: 100%;
-    height: 70vh;
+.cinemaMap p {
+    line-height: 25px;
+    font-size: 22px;
+    text-align: justify;
 }
+
+#cinemaMapButton {
+    width: 40%;
+}
+
+/* Footer */
 
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
     width: 100%;
     background-color: #1f1f1f;
 }
 
-.footerGradient {
+/*.footerGradient {
     height: 20%;
+    width: 100%;
     background-image: linear-gradient(to top, rgba(255,0,0,0), #1f1f1f);
+}*/
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 5rem 0;
+    height: fit-content;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 33%;
+}
+
+.footerColumn img {
+    width: 50%;
+}
+
+.footerColumn p {
+    line-height: 25px;
+    font-size: 14px;
+    color: white;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 20%;
+}
+
+.footerMenu h3 {
+    color: white;
+    font-size: 20px;
+    font-family: Syne, sans-serif;
+}
+
+.footerMenu div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.footerMenu a {
+    color: white;
+    font-size: 16px;
+    transition: all ease 0.1s;
+}
+
+.footer a:hover {
+    color: #bebebe;
+}
+
+#footerLine {
+    border-bottom-color: #f06c13;
+}
+
+.footerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 3rem 0;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+#footerToTopButton {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+#footerToTopButton:hover {
+    bottom: 10px;
+}
+
+#footerToTopButton img {
+    width: 8%;
 }
