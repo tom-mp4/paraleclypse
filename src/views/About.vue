@@ -1,5 +1,16 @@
+<script setup>
+import WhiteNavbar from '@/components/WhiteNavbar.vue';
+import AboutTitle from '@/components/About/AboutTitle.vue';
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <WhiteNavbar />
+    <div class="greyLine"></div>
+    <AboutTitle />
   </div>
 </template>
+
+<style scoped lang="scss">
+
+</style>
