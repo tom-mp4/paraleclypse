@@ -4,6 +4,7 @@ import Contact from '../views/Contact.vue';
 import NotFound from '../views/NotFound.vue';
 import Privacy from '../views/Legals/Privacy.vue';
 import LegalNotice from '../views/Legals/LegalNotice.vue';
+import JoinCinema from '../views/Join/JoinCinema.vue';
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+  },
+  {
+    path: '/join-cinema',
+    name: 'JoinCinema',
+    component: JoinCinema,
   },
   {
     path: '/privacy',

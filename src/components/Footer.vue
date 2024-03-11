@@ -21,9 +21,9 @@
       <div class="footerMenu">
         <h3>Ressources</h3>
         <div>
-          <a href="#">Blog & Questions Fréquentes</a>
+          <a href="https://blog.paraleclypse.com" target="_blank">Blog & Questions Fréquentes</a>
           <a href="#">Signalement</a>
-          <a href="#">Informations & Entreprise</a>
+          <router-link to="/about">Informations & Entreprise</router-link>
           <a href="#">Recrutements</a>
           <router-link to="/contact">Contact</router-link>
         </div>

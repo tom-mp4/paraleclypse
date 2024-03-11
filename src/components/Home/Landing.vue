@@ -6,8 +6,8 @@
     <nav class="navbar">
       <div id="left" class="navMenu">
         <router-link to="#" class="navButton">short seances</router-link>
-        <router-link to="/contact" class="navButton">contact</router-link>
         <router-link to="/about" class="navButton">à propos</router-link>
+        <router-link to="/contact" class="navButton">contact</router-link>
       </div>
       <div id="right" class="navMenu">
         <a href="https://instagram.com/paraleclypse" target="_blank" class="navButton">instagram</a>
