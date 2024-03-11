@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 #app {
@@ -44,6 +45,15 @@
 
 .greyLine {
   border-bottom: 1px solid #737373;
+}
+
+@media (max-width: 800px) {
+
+  .callToAction {
+    width: fit-content;
+    padding: 0.7rem 1.2rem;
+    font-size: 14px;
+  }
 }
 
 </style>

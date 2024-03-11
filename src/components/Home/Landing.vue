@@ -22,8 +22,8 @@
         des oeuvres de fiction et de documentaire.
       </p>
       <div class="callToActionButtons">
-        <a href="#" class="callToAction">découvrir</a>
-        <a href="#" class="callToAction" id="submitProjectButton">soumettre un projet</a>
+        <a href="#discover" class="callToAction">découvrir</a>
+        <a href="#project" class="callToAction" id="submitProjectButton">soumettre un projet</a>
       </div>
     </div>
     <div class="scrolling">
@@ -123,6 +123,33 @@
 
   img {
     width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  #right {
+    display: none;
+  }
+
+  .landing {
+    align-items: start;
+    width: 70%;
+
+    .landingImage {
+      width: 80%;
+    }
+
+    .landingDescription {
+      text-align: justify;
+      font-size: 16px;
+    }
+
+    .callToActionButtons {
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+    }
   }
 }
 

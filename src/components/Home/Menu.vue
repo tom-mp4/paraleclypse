@@ -4,7 +4,7 @@
 <template>
   <section class="menu">
     <div class="menuLine"></div>
-    <a href="#" target="_blank" class="menuButton">
+    <a href="https://form.typeform.com/to/iDYvb5en" target="_blank" class="menuButton">
       Diffuser votre projet
       <img src="@/assets/icons/down-arrow.png" alt="Right arrow" class="menuImg">
     </a>

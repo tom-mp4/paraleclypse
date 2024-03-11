@@ -2,9 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Contact from '../views/Contact.vue';
 import NotFound from '../views/NotFound.vue';
+import Jobs from '../views/Jobs.vue';
 import Privacy from '../views/Legals/Privacy.vue';
 import LegalNotice from '../views/Legals/LegalNotice.vue';
-import JoinCinema from '../views/Join/JoinCinema.vue';
 
 const routes = [
   {
@@ -28,9 +28,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
-    path: '/join-cinema',
-    name: 'JoinCinema',
-    component: JoinCinema,
+    path: '/jobs',
+    name: 'Jobs',
+    component: Jobs,
   },
   {
     path: '/privacy',

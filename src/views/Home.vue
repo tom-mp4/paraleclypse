@@ -3,9 +3,13 @@
     <section class="top">
       <Landing />
       <PresentationVideo />
+      <div id="discover"></div>
     </section>
-    <CompanyDescription
-      :content="build[0].content"/>
+    <div>
+      <CompanyDescription
+        :content="build[0].content"/>
+      <div id="project"></div>
+    </div>
     <Menu />
     <Project />
     <CompanyDescription

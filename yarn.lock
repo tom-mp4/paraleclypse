@@ -1595,13 +1595,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typeform/embed@npm:^4.8.1":
-  version: 4.8.1
-  resolution: "@typeform/embed@npm:4.8.1"
-  checksum: 1e7ac3d0d95c1ea823160f1478a973f871550a4bab7de1501f557b1e18966ab5a740b6a913d9436b5ee59d0f25d707b66582a8c41dea195383cca3afb1955b23
-  languageName: node
-  linkType: hard
-
 "@types/body-parser@npm:*":
   version: 1.19.5
   resolution: "@types/body-parser@npm:1.19.5"
@@ -9284,7 +9277,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "paraleclypse-website@workspace:."
   dependencies:
-    "@typeform/embed": ^4.8.1
     "@vue/cli-plugin-babel": ~4.5.13
     "@vue/cli-plugin-eslint": ~4.5.13
     "@vue/cli-plugin-router": ~4.5.13

@@ -23,9 +23,10 @@
       </h2>
       <p>
         Le présent site, accessible à l’URL paraleclypse.com (le « Site »), est édité par :
-        Paraleclypse SAS , société au capital de 700 euros, inscrite au R.C.S. de BORDEAUX
+        <a target="_blank" href="https://annuaire-entreprises.data.gouv.fr/entreprise/paraleclypse-985366996">
+        Paraleclypse SAS</a>, société au capital de 700 euros, inscrite au R.C.S. de BORDEAUX
         sous le numéro RCS BORDEAUX B 985366996, dont le siège social est situé au 81 rue
-        Camille Sauvageau, 33800 Bordeaux, représenté(e) par Tom Martin dûment habilité(e)
+        Camille Sauvageau, 33800 Bordeaux, représenté(e) par Tom Martin dûment habilité(e).
       </p>
     </div>
     <div class="textBlock">
