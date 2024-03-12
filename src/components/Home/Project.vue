@@ -40,6 +40,7 @@
   align-items: center;
   background-image: url('../../assets/img/paradoxa-background.jpg');
   background-size: cover;
+  background-position: bottom center;
   border-radius: 25px;
   padding: 4rem 0;
   width: 90%;
@@ -131,7 +132,6 @@
 
       #projectButton {
         width: fit-content;
-        color: white;
       }
     }
   }

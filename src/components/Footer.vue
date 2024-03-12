@@ -150,4 +150,38 @@
   }
 }
 
+@media (max-width: 800px) {
+  .footer {
+    .footerTop {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      width: 90%;
+
+      .footerColumn {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+        img {
+          width: 165px;
+        }
+      }
+
+      .footerMenu {
+        width: fit-content;
+      }
+    }
+
+    .footerBottom {
+      width: 70%;
+      text-align: center;
+
+      #footerToTopButton {
+        display: none;
+      }
+    }
+  }
+}
+
 </style>

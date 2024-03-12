@@ -35,7 +35,7 @@
   width: 90%;
   background-image: url('../../assets/img/cinema.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom center;
 
   .cinemaMapContent {
     display: flex;
@@ -62,6 +62,35 @@
 
     #cinemaMapButton {
       width: 40%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .cinemaMap {
+    height: 70vh;
+    border-radius: 20px;
+    align-items: flex-end;
+    padding: 2rem 0;
+
+    .cinemaMapContent {
+      width: 90%;
+      align-items: center;
+      text-align: center;
+
+      .mapTitle {
+        font-size: 24px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      #cinemaMapButton {
+        width: 70%;
+      }
     }
   }
 }
