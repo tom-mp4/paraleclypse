@@ -11,7 +11,7 @@
       <router-link class="nav" to="/about">à propos</router-link>
       <router-link class="nav" to="/contact">contact</router-link>
     </div>
-    <div class="button">
+    <div id="socialButton" class="button">
       <a href="https://instagram.com/paraleclypse" target="_blank" class="socialButton">instagram</a>
       <p>/</p>
       <a href="https://www.linkedin.com/company/paraleclypse/" target="_blank" class="socialButton">linkedin</a>
@@ -49,6 +49,18 @@
     p {
       color: #737373;
     }
+  }
+}
+
+@media (max-width: 800px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #socialButton {
+    display: none;
   }
 }
 
