@@ -137,13 +137,10 @@ section {
     text-align: center;
 
     h1 {
+      font-family: Syne, sans-serif;
+      font-size: 40px;
       width: 70%;
     }
-  }
-
-  h1 {
-    font-family: Syne, sans-serif;
-    font-size: 40px;
   }
 
   h2 {
@@ -157,6 +154,27 @@ section {
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  section {
+    width: 80%;
+
+    #title {
+      h1 {
+        font-size: 28px;
+        width: 100%;
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
     }
   }
 }

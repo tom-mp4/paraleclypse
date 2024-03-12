@@ -107,4 +107,25 @@ section {
   }
 }
 
+@media (max-width: 800px) {
+  section {
+    width: 80%;
+
+    #title {
+      h1 {
+        font-size: 28px;
+        width: 100%;
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
 </style>
