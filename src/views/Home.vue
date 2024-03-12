@@ -74,4 +74,14 @@ export default {
   gap: 10vh;
 }
 
+@media (max-width: 800px) {
+  .home {
+    gap: 15vh;
+  }
+
+  .top {
+    gap: 10vh;
+  }
+}
+
 </style>

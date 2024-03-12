@@ -31,4 +31,14 @@ export default {
   }
 }
 
+@media (max-width: 800px) {
+  .companyDescription {
+    p {
+      font-size: 18px;
+      width: 75%;
+      line-height: 26px;
+    }
+  }
+}
+
 </style>

@@ -89,4 +89,52 @@
   }
 }
 
+@media (max-width: 800px) {
+  .projects {
+    padding: 2rem 0;
+    border-radius: 20px;
+    width: 90%;
+    height: 70vh;
+
+    .projectDecoration {
+      flex-direction: column;
+      gap: 0.3rem;
+
+      p {
+        font-size: 14px;
+      }
+
+      .line {
+        border-bottom: 1px solid white;
+        width: 30vw;
+      }
+    }
+
+    .projectInfos {
+      flex-direction: column;
+      width: 90%;
+      gap: 1.2rem;
+
+      .projectTextPart {
+        gap: 0.5rem;
+        width: 100%;
+        text-align: center;
+
+        .projectTitle {
+          font-size: 24px;
+        }
+
+        .projectDescription {
+          font-size: 14px;
+        }
+      }
+
+      #projectButton {
+        width: fit-content;
+        color: white;
+      }
+    }
+  }
+}
+
 </style>

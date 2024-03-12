@@ -58,4 +58,19 @@
   }
 }
 
+@media (max-width: 800px) {
+  .menu {
+    .menuButton {
+      font-size: 18px;
+      height: 10vh;
+      gap: 1rem;
+      font-weight: 600;
+    }
+
+    .menuImg {
+      width: 2rem;
+    }
+  }
+}
+
 </style>
