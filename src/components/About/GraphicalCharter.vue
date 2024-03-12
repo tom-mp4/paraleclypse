@@ -73,4 +73,31 @@
     }
   }
 
+  @media (max-width: 800px) {
+    .graphicalCharter {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+
+      h2 {
+        text-align: center;
+      }
+
+      .graphicalCharterDescription {
+        width: 100%;
+        font-size: 16px;
+        gap: 2rem;
+
+        .graphicalCharterButton {
+          font-size: 14px;
+          text-decoration: underline;
+        }
+      }
+
+      .blackLogo {
+        width: 35%;
+      }
+    }
+  }
+
 </style>

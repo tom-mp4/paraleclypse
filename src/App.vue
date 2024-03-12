@@ -45,6 +45,7 @@
 
 .greyLine {
   border-bottom: 1px solid #737373;
+  width: 100%;
 }
 
 @media (max-width: 800px) {

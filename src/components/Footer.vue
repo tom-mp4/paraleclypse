@@ -154,9 +154,8 @@
   .footer {
     .footerTop {
       flex-direction: column;
-      align-items: center;
       gap: 3rem;
-      width: 90%;
+      width: 70%;
 
       .footerColumn {
         width: 100%;
@@ -165,6 +164,10 @@
 
         img {
           width: 165px;
+        }
+
+        p {
+          line-height: 20px;
         }
       }
 

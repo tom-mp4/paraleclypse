@@ -29,4 +29,14 @@
       padding: 0 3rem;
     }
   }
+
+  @media (max-width: 800px) {
+    .companyDescription {
+      p {
+        width: 100%;
+        font-size: 14px;
+        padding: 0;
+      }
+    }
+  }
 </style>

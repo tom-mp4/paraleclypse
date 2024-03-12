@@ -39,4 +39,13 @@
   }
 }
 
+@media (max-width: 800px) {
+  .companyHistory {
+    p {
+      width: 70%;
+      font-size: 16px;
+    }
+  }
+}
+
 </style>

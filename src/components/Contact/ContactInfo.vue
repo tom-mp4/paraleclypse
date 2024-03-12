@@ -55,4 +55,14 @@
   }
 }
 
+@media (max-width: 800px) {
+  .contactInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50vh;
+    padding: 3rem 0;
+    width: 80%;
+  }
+}
+
 </style>
