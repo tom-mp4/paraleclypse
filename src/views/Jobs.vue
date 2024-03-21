@@ -1,12 +1,13 @@
 <script setup>
 
-import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
 </script>
 
 <template>
   <div class="jobs">
     <Navbar />
+    <div class="greyLine"></div>
     <div class="noJobs">
       <img alt="Illustration erreur 404" src="@/assets/illustrations/confrontation.svg">
       <div class="text">

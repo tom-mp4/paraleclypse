@@ -28,6 +28,13 @@ import Menu from '@/components/Home/Menu.vue';
 import CinemaMap from '@/components/Home/CinemaMap.vue';
 import Footer from '@/components/Footer.vue';
 
+import { gsap } from 'gsap';
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { TextPlugin } from 'gsap/TextPlugin';
+
+gsap.registerPlugin(ScrollTrigger, TextPlugin);
+
 export default {
   name: 'Home',
   components: {

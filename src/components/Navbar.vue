@@ -24,9 +24,9 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #1f1f1f;
   align-items: center;
   padding: 1.5rem 1.5rem;
-  background-color: #1f1f1f;
 
   img {
     width: 40px;

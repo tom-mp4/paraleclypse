@@ -6533,6 +6533,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gsap@npm:^3.12.5":
+  version: 3.12.5
+  resolution: "gsap@npm:3.12.5"
+  checksum: 60b99dc4482992ba86013963ee9a97a5ec62d480495dd85764788913245aa08cfd202c1df4bbc7592e43d5faa885127bec75f77266f2964fe3d3b559ab63f852
+  languageName: node
+  linkType: hard
+
 "gzip-size@npm:^5.0.0":
   version: 5.1.1
   resolution: "gzip-size@npm:5.1.1"
@@ -9288,6 +9295,7 @@ __metadata:
     eslint: ^6.7.2
     eslint-plugin-import: ^2.20.2
     eslint-plugin-vue: ^7.0.0
+    gsap: ^3.12.5
     sass: ^1.26.5
     sass-loader: ^8.0.2
     vue: ^3.0.0

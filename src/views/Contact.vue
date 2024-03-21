@@ -22,7 +22,6 @@ import Navbar from '@/components/Navbar.vue';
 .contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #1f1f1f;
 
   .marquee {

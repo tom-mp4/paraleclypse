@@ -60,7 +60,7 @@
     flex-direction: column;
     align-items: flex-start;
     height: 50vh;
-    padding: 3rem 0;
+    padding: 3rem 3rem;
     width: 80%;
   }
 }
