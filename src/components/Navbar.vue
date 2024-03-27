@@ -7,7 +7,7 @@
       <img src="@/assets/logo/logo-profil-blanc.svg" alt="Logo pour menu paraleclypse blanc">
     </router-link>
     <div class="button">
-      <router-link class="nav" to="/short-seances">short seance</router-link>
+      <router-link class="nav" to="/fractures">fractures</router-link>
       <router-link class="nav" to="/about">à propos</router-link>
       <router-link class="nav" to="/contact">contact</router-link>
     </div>

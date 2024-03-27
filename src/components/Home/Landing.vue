@@ -5,7 +5,7 @@
   <header class="header">
     <nav class="navbar">
       <div id="left" class="navMenu">
-        <router-link to="#" class="navButton">short seance</router-link>
+        <router-link to="/fractures" class="navButton">fractures</router-link>
         <router-link to="/about" class="navButton">à propos</router-link>
         <router-link to="/contact" class="navButton">contact</router-link>
       </div>

@@ -5,6 +5,7 @@ import NotFound from '../views/NotFound.vue';
 import Jobs from '../views/Jobs.vue';
 import Privacy from '../views/Legals/Privacy.vue';
 import LegalNotice from '../views/Legals/LegalNotice.vue';
+import Fractures from '../views/Fractures.vue';
 
 const routes = [
   {
@@ -16,6 +17,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/fractures',
+    name: 'Fractures',
+    component: Fractures,
   },
   {
     path: '/contact',
