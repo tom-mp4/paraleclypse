@@ -3,8 +3,8 @@
 
 <template>
   <div class="fracturesLanding">
-      <h1>fractures</h1>
-      <p>Les séances paraleclypse qui vous font découvrir les court-métrages au cinéma.</p>
+    <h1>fractures</h1>
+    <p>Les séances paraleclypse qui vous font découvrir les court-métrages au cinéma.</p>
   </div>
 </template>
 
@@ -13,10 +13,11 @@
 .fracturesLanding {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 75vh;
   color: white;
+  margin: 4rem 3rem;
 
   h1 {
     font-size: 9rem;

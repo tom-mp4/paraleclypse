@@ -22,7 +22,7 @@
         des oeuvres de fiction et de documentaire.
       </p>
       <div class="callToActionButtons">
-        <a href="#discover" class="callToAction">découvrir</a>
+        <router-link to="/fractures" class="callToAction">découvrir</router-link>
         <a href="#project" class="callToAction" id="submitProjectButton">soumettre un projet</a>
       </div>
     </div>
