@@ -13,7 +13,6 @@
         <img src="@/assets/posters/paradoxa.jpg" alt="">
       </a>
       <a href="" class="moviePoster">
-        <img src="@/assets/posters/lmdf.jpg" alt="">
       </a>
       <a href="" class="moviePoster"></a>
       <a href="" class="moviePoster"></a>

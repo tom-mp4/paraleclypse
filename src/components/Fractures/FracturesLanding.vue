@@ -17,7 +17,7 @@
   justify-content: flex-end;
   height: 75vh;
   color: white;
-  margin: 4rem 3rem;
+  padding: 4rem 3rem;
 
   h1 {
     font-size: 9rem;
@@ -31,6 +31,21 @@
   p {
     font-size: 1.3rem;
     text-transform: uppercase;
+  }
+}
+
+@media (max-width: 800px) {
+  .fracturesLanding {
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
   }
 }
 

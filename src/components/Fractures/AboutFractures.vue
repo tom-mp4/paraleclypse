@@ -6,19 +6,21 @@
   <section class="graphicalCharter">
     <h2>Les Fractures</h2>
     <div class="graphicalCharterDescription">
-      <div>
-        <h3>une séance </h3>
-        <p>
-          Les Fractures sont des séances vous plongeant dans une expérience unique. Le temps d'un
-          film, vous pourrez découvrir les oeuvres d'artistes de tous envergures à travers leur
-          court-métrage. C'est pendant 75 à 90 minutes que nous vous proposons d'être transporté,
-          par une dizaine d'oeuvres courtes de fiction, d'animation ou de documentaire. Les
-          Fractures, c'est mettre sur le devant de la scène des artistes émergents et talentueux,
-          pour un publique curieux et avide de découvertes.
-        </p>
-      </div>
+      <h3>une séance</h3>
+      <p>
+        Les Fractures sont des séances vous plongeant dans une expérience unique. Le temps d'un
+        film, vous pourrez découvrir les oeuvres d'artistes de tous envergures à travers leur
+        court-métrage. C'est pendant 75 à 90 minutes que nous vous proposons d'être transporté,
+        par une dizaine d'oeuvres courtes de fiction, d'animation ou de documentaire.
+      </p>
     </div>
-    <img class="blackLogo" src="@/assets/logo/logo-profil-noir.svg" alt="Logo paraleclypse noir">
+    <div class="graphicalCharterDescription">
+      <h3>en bref</h3>
+      <p>
+        Les Fractures, c'est mettre sur le devant de la scène des artistes émergents et talentueux,
+        pour un publique curieux et avide de découvertes.
+      </p>
+    </div>
   </section>
 </template>
 
@@ -38,7 +40,7 @@
     flex-direction: column;
     width: 30%;
     text-align: justify;
-    gap: 1.2rem;
+    gap: 0.7rem;
 
     h3 {
       font-family: Syne, sans-serif;

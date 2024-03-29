@@ -4,6 +4,7 @@ import FracturesLanding from '@/components/Fractures/FracturesLanding.vue';
 import Programming from '@/components/Fractures/Programming.vue';
 import Navbar from '@/components/Navbar.vue';
 import AboutFractures from '@/components/Fractures/AboutFractures.vue';
+import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import AboutFractures from '@/components/Fractures/AboutFractures.vue';
     <div class="greyLine"></div>
     <AboutFractures />
     <div class="greLine"></div>
+    <Footer />
   </div>
 
 </template>

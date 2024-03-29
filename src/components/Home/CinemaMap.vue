@@ -15,7 +15,7 @@
       </p>
       <a id="cinemaMapButton"
          target="_blank"
-         href="#"
+         href="/fractures"
          class="callToAction">
         découvrir les cinémas partenaires
       </a>
