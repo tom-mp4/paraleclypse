@@ -49,10 +49,10 @@ export default {
   data: () => ({
     build: [
       {
-        content: 'Paraleclypse a été créé en 2020 par Tom Martin et Léo Prudhomme. Respectivement réalisateur et artiste 3D,\n'
-          + 'l\'idée était d\'avoir une structure permettant de signer collectivement un premier clip vidéo. Depuis les ambitions\n'
-          + 'ont évoluées et le projet a changé. Paraleclypse est devenue une société de production et de distribution axée\n'
-          + 'autour de la création de fiction et particulièrement de court-métrage.',
+        content: 'Paraleclypse est un studio de distribution indépendant orienté vers le court-métrage.'
+          + ' Notre volonté est de connecter un cinéma jeune et émergent avec un public curieux et habitué aux formats courts.'
+          + ' Nous proposons ainsi des séances de 75 à 90 minutes, composées de plusieurs courts-métrages enchaînés,'
+          + ' créant une expérience cinématographique riche et variée.',
       },
       {
         content: 'Notre objectif est d\'accompagner les artistes pour lesquels nous\n'

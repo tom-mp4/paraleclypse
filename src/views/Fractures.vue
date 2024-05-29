@@ -16,7 +16,6 @@ import Footer from '@/components/Footer.vue';
     <Programming />
     <div class="greyLine"></div>
     <AboutFractures />
-    <div class="greLine"></div>
     <Footer />
   </div>
 
