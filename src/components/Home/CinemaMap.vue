@@ -8,10 +8,10 @@
         Découvrir la sélection.
       </h2>
       <p>
-        Paraleclypse propose dans tous les cinémas partenaires, une séance trimestrielle
-        programmée avec les productions originales de Paraleclypse et d'autre projets
-        que nous accompagnons. L'objectif est de provoquer la rencontre entre un contenu
-        nouveau et un public curieux.
+        Paraleclypse propose les séances Fractures dans tout les cinémas partenaires.
+        Notre programmation trimestrielle se compose de productions originales de Paraleclypse et
+        d'autre projets que nous accompagnons. L'objectif est de provoquer la rencontre entre un
+        contenu nouveau et un public curieux.
       </p>
       <a id="cinemaMapButton"
          target="_blank"

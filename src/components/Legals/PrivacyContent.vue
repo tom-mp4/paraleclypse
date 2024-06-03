@@ -13,7 +13,7 @@
     </div>
     <p>
       Le site web paraleclypse.com est détenu par <router-link to="/legal">Paraleclypse SAS
-      </router-link>, qui est voué à récolter de vos données personnelles.
+      </router-link>, qui permet de récolter certaines de vos données personnelles.
       Nous avons adopté cette politique de confidentialité, qui détermine la manière dont nous
       traitons les informations collectées par paraleclypse.com, qui fournit également les raisons
       pour lesquelles nous devons collecter certaines données personnelles vous concernant.<br><br>
@@ -29,7 +29,7 @@
         Lorsque vous visitez paraleclypse.com, nous recueillons automatiquement certaines
         informations sur votre appareil, notamment des informations sur votre navigateur web,
         votre adresse IP, votre fuseau horaire et certains des cookies installés sur votre
-        appareil. Nous recoltons collecter les données personnelles que vous nous fournissez
+        appareil. Nous recoltons les données personnelles que vous nous fournissez
         à travers les formulaire du site web (y compris, mais sans s'y limiter, le nom, le prénom,
         l'adresse, etc.).
       </p>

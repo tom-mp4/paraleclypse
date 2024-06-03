@@ -15,7 +15,7 @@
       création de fiction et particulièrement de court-métrage.
     </p>
     <p>
-      Aujourd'hui, Paraleclypse, à travers les short séances propose de distribuer le
+      Aujourd'hui, Paraleclypse, à travers les séances Fractures, propose de distribuer le
       court-métrage dans les cinémas. L'objectif est de connecter un publique curieux de
       découvrir un cinéma nouveau, jeune et audacieux, sous une toute nouvelle forme.
     </p>
