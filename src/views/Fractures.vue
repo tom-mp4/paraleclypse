@@ -29,7 +29,7 @@ import Footer from '@/components/Footer.vue';
   gap: 12vh;
 
   .fracturesBackground {
-    background-image: url("../assets/img/fractures-background.png");
+    background-image: url("../assets/img/fractures-background.jpg");
     background-size: cover;
     background-position: center;
 

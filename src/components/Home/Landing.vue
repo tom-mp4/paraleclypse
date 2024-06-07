@@ -15,6 +15,16 @@
         <a href="https://www.linkedin.com/company/paraleclypse/" target="_blank" class="navButton">linkedin</a>
       </div>
     </nav>
+    <!--<div class="landing">
+      <video autoplay muted loop class="presentingVideo">
+        <source class="videoBackground" src="@/assets/video/background.mp4" type="video/mp4">
+      </video>
+      <video autoplay muted loop class="verticalPresentingVideo">
+        <source class="videoBackground"
+                src="@/assets/video/vertical-background.mp4"
+                type="video/mp4">
+      </video>
+    </div>-->
     <div class="landing">
       <img class="landingImage" src="@/assets/logo/logo-black.png" alt="Paraleclypse logo">
       <p class="landingDescription">
@@ -42,6 +52,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 5vh;
 
   /* Navbar */
 
@@ -73,6 +84,21 @@
 }
 
 /* Landing */
+
+/*.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+  .presentingVideo {
+    width: 90%;
+  }
+
+  .verticalPresentingVideo {
+    display: none;
+  }
+}*/
 
 .landing {
   display: flex;
@@ -131,6 +157,15 @@
   #right {
     display: none;
   }
+
+  /*.presentingVideo {
+    display: none;
+  }
+
+  .verticalPresentingVideo {
+    display: block;
+    width: 100%;
+  }*/
 
   .landing {
     align-items: start;
