@@ -9,7 +9,7 @@
         <h3>une identité</h3>
         <p>
           La charte graphique de Paraleclypse est un élément essentiel de notre identité visuelle.
-          Elle est utilisés pour représenter notre entreprise sur tous les supports de
+          Elle est utilisé pour représenter notre entreprise sur tous les supports de
           communication.
         </p>
       </div>

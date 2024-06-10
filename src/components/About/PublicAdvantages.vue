@@ -8,9 +8,14 @@
       <div>
         <h3>redécouvrir le cinéma</h3>
         <p>
-          La charte graphique de Paraleclypse est un élément essentiel de notre identité visuelle.
-          Elle est utilisés pour représenter notre entreprise sur tous les supports de
-          communication.
+          Les séances Fractures attirent un public réceptif à l’innovation,
+          Paraleclypse offre un regard frais sur le paysage cinématographique
+          contemporain, en mettant en lumière des artistes et
+          des contenus hors des sentiers battus.<br><br>
+          Pour ceux qui hésitent entre plusieurs films, la
+          curiosité suscitée par les courts-métrages de fiction,
+          documentaires et animations peut être un moteur pour
+          choisir cette expérience différente.
         </p>
       </div>
       <!--<a class="graphicalCharterButton" href="">

@@ -9,9 +9,14 @@
       <div>
         <h3>une solution clés en main</h3>
         <p>
-          La charte graphique de Paraleclypse est un élément essentiel de notre identité visuelle.
-          Elle est utilisés pour représenter notre entreprise sur tous les supports de
-          communication.
+          Paraleclypse offre une solution clé en main simple et efficace pour les cinémas.
+          L'objectif est de proposer la même simplicité que lors de la diffusion d'un long-métrage.
+          <br><br>
+          Nous fournissons une sélection de courts-métrages que nous prenons le temps de découvrir.
+          Nous nous occupons entièrement de la gestion des droits et de la répartition équitable des
+          bénéfices entre les différents producteurs et ayants droit.
+          De plus, nous comptons sur un plan de communication à grande échelle tourné vers la
+          jeunesse.
         </p>
       </div>
       <a class="cinemaButton" href="">

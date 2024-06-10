@@ -9,9 +9,16 @@
       <div>
         <h3>diffusez vos œuvres</h3>
         <p>
-          La charte graphique de Paraleclypse est un élément essentiel de notre identité visuelle.
-          Elle est utilisés pour représenter notre entreprise sur tous les supports de
-          communication.
+          Pour les réalisateurs, producteurs et ayants droits,
+          Paraleclypse représente une nouvelle opportunité de
+          diffusion pour leurs œuvres.<br><br>
+          Au-delà des festivals, les séances Fractures offrent une
+          visibilité auprès d’un large public, une interaction avec
+          la critique et la possibilité d’être découvert par des
+          professionnels de l’industrie cinématographique.<br><br>
+          De plus, Paraleclypse garantit une rémunération
+          stable et équitable, soutenant ainsi financièrement de
+          nouveaux projets.
         </p>
       </div>
       <a class="roButton" href="">
