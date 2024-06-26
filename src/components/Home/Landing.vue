@@ -28,7 +28,7 @@
     <div class="landing">
       <img class="landingImage" src="@/assets/logo/logo-black.png" alt="Paraleclypse logo">
       <p class="landingDescription">
-        Paraleclypse est une société de distribution et de production audiovisuel. Nous travaillons
+        Paraleclypse est une société de distribution et de production audiovisuelle. Nous travaillons
         des oeuvres de fiction et de documentaire.
       </p>
       <div class="callToActionButtons">
