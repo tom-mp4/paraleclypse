@@ -28,12 +28,14 @@
     <div class="landing">
       <img class="landingImage" src="@/assets/logo/logo-black.png" alt="Paraleclypse logo">
       <p class="landingDescription">
-        Paraleclypse est une société de distribution et de production audiovisuelle. Nous travaillons
-        des oeuvres de fiction et de documentaire.
+        Paraleclypse est une société de distribution et de production audiovisuelle. Nous
+        travaillons des oeuvres de fiction et de documentaire.
       </p>
       <div class="callToActionButtons">
         <router-link to="/fractures" class="callToAction">découvrir</router-link>
-        <a href="#project" class="callToAction" id="submitProjectButton">soumettre un projet</a>
+        <a href="#project" class="callToAction" id="submitProjectButton">
+          distribuer un court métrage
+        </a>
       </div>
     </div>
     <div class="scrolling">
@@ -124,7 +126,7 @@
 
   .callToActionButtons {
     display: flex;
-    width: 75%;
+    width: 85%;
     gap: 2%;
 
     #submitProjectButton {
