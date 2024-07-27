@@ -26,7 +26,7 @@ import Footer from '@/components/Footer.vue';
 .fractures {
   display: flex;
   flex-direction: column;
-  gap: 12vh;
+  gap: 15vh;
 
   .fracturesBackground {
     background-image: url("../assets/img/fractures-background.jpg");

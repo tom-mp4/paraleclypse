@@ -5,7 +5,7 @@
   <section class="cinemaMap">
     <div class="cinemaMapContent">
       <h2 class="mapTitle">
-        Découvrir la sélection.
+Modi        Les court-métrage sur le devant de la scène.
       </h2>
       <p>
         Paraleclypse propose les séances Fractures dans tout les cinémas partenaires.
@@ -17,7 +17,7 @@
          target="_blank"
          href="/fractures"
          class="callToAction">
-        découvrir les cinémas partenaires
+        découvrir la sélection
       </a>
     </div>
   </section>

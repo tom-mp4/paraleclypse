@@ -9,20 +9,21 @@
         <p>
           Redécouvrez le cinéma, réinventez votre expérience.
         </p>
-        <!--<div class="socials">
+        <div class="socials">
           <a href="https://instagram.com/paraleclypse" target="_blank">
-            <img src="@/assets/icons/instagram.png" alt="Instagram logo">
+            instagram
           </a>
           <a href="https://linkedin.com/paraleclypse" target="_blank">
-            <img src="@/assets/icons/linkedin.png" alt="Linkedin logo">
+            linkedin
           </a>
-        </div>-->
+        </div>
       </div>
       <div class="footerMenu">
         <h3>Ressources</h3>
         <div>
-          <a href="https://blog.paraleclypse.com" target="_blank">Blog & Questions Fréquentes</a>
-          <a href="https://form.typeform.com/to/wCXaFMTe">Signalement</a>
+          <router-link to="/fractures">Séances Fractures</router-link>
+          <!--<a href="https://blog.paraleclypse.com" target="_blank">Blog & Questions Fréquentes</a>
+          <a href="https://form.typeform.com/to/wCXaFMTe">Signalement</a>-->
           <router-link to="/about">Informations & Entreprise</router-link>
           <a href="/jobs">Recrutements</a>
           <router-link to="/contact">Contact</router-link>
@@ -40,7 +41,7 @@
     <div id="footerLine" class="line"></div>
     <div class="footerBottom">
       <p>
-        © Paraleclypse.com - Tous droits réservés - 2024
+        © Paraleclypse SAS - Tous droits réservés - 2024
       </p>
       <a id="footerToTopButton"
          href="#">
@@ -73,6 +74,22 @@
       flex-direction: column;
       gap: 0.5rem;
       width: 33%;
+
+      .socials {
+        display: flex;
+        gap: 1rem;
+        text-transform: uppercase;
+        padding-top: 1rem;
+
+        a {
+          color: white;
+
+          &:hover {
+            color: #f06c13;
+            text-decoration: underline;
+          }
+        }
+      }
 
       img {
         width: 180px;
