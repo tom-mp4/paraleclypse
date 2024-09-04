@@ -5,11 +5,11 @@
   <section class="cinemaMap">
     <div class="cinemaMapContent">
       <h2 class="mapTitle">
-Modi        Les court-métrage sur le devant de la scène.
+        Les court-métrages sur le devant de la scène.
       </h2>
       <p>
         Paraleclypse propose les séances Fractures dans tout les cinémas partenaires.
-        Notre programmation trimestrielle se compose de productions originales de Paraleclypse et
+        Notre programmation trimestrielle se compose de productions originales Paraleclypse et
         d'autre projets que nous accompagnons. L'objectif est de provoquer la rencontre entre un
         contenu nouveau et un public curieux.
       </p>

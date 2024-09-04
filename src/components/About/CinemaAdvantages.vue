@@ -9,7 +9,7 @@
       <div>
         <h3>une solution clés en main</h3>
         <p>
-          Paraleclypse offre une solution clé en main simple et efficace pour les cinémas.
+          Paraleclypse offre une solution clés en main simple et efficace pour les cinémas.
           L'objectif est de proposer la même simplicité que lors de la diffusion d'un long-métrage.
           <br><br>
           Nous fournissons une sélection de courts-métrages que nous prenons le temps de découvrir.
@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    text-align: justify;
     gap: 1.2rem;
 
     h3 {

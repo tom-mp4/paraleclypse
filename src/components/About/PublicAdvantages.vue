@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    text-align: justify;
     gap: 1.2rem;
 
     h3 {
