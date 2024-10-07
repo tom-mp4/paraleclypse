@@ -4,7 +4,7 @@
 <template>
   <nav class="navbar">
     <router-link to="/">
-      <img src="@/assets/logo/logo-profil-noir.svg" alt="Logo pour menu paraleclypse blanc">
+      <img src="@/assets/logo/logo-white.png" alt="Logo de menu paraleclypse blanc">
     </router-link>
     <div class="button">
       <router-link class="nav" to="/fractures">fractures</router-link>
@@ -25,10 +25,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1.5rem;
+  padding: 2.5rem 5rem;
 
   img {
-    width: 40px;
+    width: 180px;
   }
 
   .button {
@@ -36,13 +36,13 @@
     gap: 1rem;
 
     a {
-      color: #1f1f1f;
+      color: #ffffff;
       text-transform: uppercase;
       font-family: Syne, sans-serif;
       transition: all ease 0.3s;
 
       &:hover {
-        color: #737373;
+        color: #cccccc;
       }
     }
 

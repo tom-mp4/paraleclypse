@@ -8,7 +8,7 @@
         Mentions Légales
       </h1>
       <p>
-        Mises à jour le 10/03/2024
+        Mises à jour le 7/10/2024
       </p>
     </div>
     <p>

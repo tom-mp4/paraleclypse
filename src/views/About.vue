@@ -1,5 +1,5 @@
 <script setup>
-import WhiteNavbar from '@/components/WhiteNavbar.vue';
+import Navbar from '@/components/Navbar.vue';
 import AboutTitle from '@/components/About/AboutTitle.vue';
 import AboutDescription from '@/components/About/AboutDescription.vue';
 import CompanyHistory from '@/components/About/CompanyHistory.vue';
@@ -14,7 +14,7 @@ import Team from '@/components/About/Team.vue';
 <template>
   <div class="about">
     <div>
-      <WhiteNavbar />
+      <Navbar />
       <div class="greyLine"></div>
       <AboutTitle />
       <AboutDescription />

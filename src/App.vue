@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   width: 50%;
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   background-color: #f06c13;
   border-radius: 10px;
   color: #1f1f1f;

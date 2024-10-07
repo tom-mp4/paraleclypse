@@ -51,8 +51,8 @@
 
 .team{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
   gap: 3rem;
 
   .title {
@@ -62,7 +62,7 @@
   .teamContainer {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 70%;
     gap: 25px;
 
     .teamMember {

@@ -1,8 +1,7 @@
 <script setup>
-
+import WhiteNavbar from '@/components/WhiteNavbar.vue';
 import FracturesLanding from '@/components/Fractures/FracturesLanding.vue';
 import Programming from '@/components/Fractures/Programming.vue';
-import Navbar from '@/components/Navbar.vue';
 import AboutFractures from '@/components/Fractures/AboutFractures.vue';
 import Footer from '@/components/Footer.vue';
 </script>
@@ -10,7 +9,7 @@ import Footer from '@/components/Footer.vue';
 <template>
   <div class="fractures">
     <div class="fracturesBackground">
-      <Navbar />
+      <WhiteNavbar />
       <FracturesLanding />
     </div>
     <Programming />

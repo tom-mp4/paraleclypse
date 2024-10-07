@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <section class="top">
+      <Navbar />
       <Landing />
-      <PresentationVideo />
       <div id="discover"></div>
     </section>
     <div>
@@ -21,7 +21,6 @@
 
 <script>
 import Landing from '@/components/Home/Landing.vue';
-import PresentationVideo from '@/components/Home/PresentationVideo.vue';
 import CompanyDescription from '@/components/Home/CompanyDescription.vue';
 import Project from '@/components/Home/Project.vue';
 import Menu from '@/components/Home/Menu.vue';
@@ -32,18 +31,19 @@ import { gsap } from 'gsap';
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextPlugin } from 'gsap/TextPlugin';
+import Navbar from '@/components/Navbar.vue';
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 export default {
   name: 'Home',
   components: {
+    Navbar,
     Footer,
     CinemaMap,
     Menu,
     Project,
     CompanyDescription,
-    PresentationVideo,
     Landing,
   },
   data: () => ({
@@ -78,7 +78,7 @@ export default {
 .top {
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 3vh;
 }
 
 @media (max-width: 800px) {

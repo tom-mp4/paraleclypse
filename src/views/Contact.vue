@@ -1,13 +1,13 @@
 <script setup>
-import Footer from '@/components/Footer.vue';
+import WhiteNavbar from '@/components/WhiteNavbar.vue';
 import Marquee from '@/components/Contact/Marquee.vue';
 import ContactInfo from '@/components/Contact/ContactInfo.vue';
-import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
   <div class="contact">
-    <Navbar />
+    <WhiteNavbar />
     <div class="greyLine"></div>
     <Marquee class="marquee" />
     <div class="greyLine"></div>
