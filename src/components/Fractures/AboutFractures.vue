@@ -17,7 +17,7 @@
     <div class="graphicalCharterDescription">
       <h3>en bref</h3>
       <p>
-        Les Fractures, c'est mettre sur le devant de la scène des artistes émergents et talentueux,
+        Les Fractures, c'est mettre sur le devant de la scène des oeuvres émergentes et ambitieuses,
         pour un publique curieux et avide de découvertes.
       </p>
     </div>

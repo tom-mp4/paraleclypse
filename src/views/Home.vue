@@ -11,10 +11,10 @@
       <div id="project"></div>
     </div>
     <Menu />
-    <Project />
+    <CinemaMap />
     <CompanyDescription
       :content="build[1].content"/>
-    <CinemaMap />
+    <Project />
     <Footer />
   </div>
 </template>
@@ -71,7 +71,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffe6dc;
+  background-color: white;
   gap: 30vh;
 }
 
@@ -79,6 +79,8 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 3vh;
+  background-color: #ffe6dc;
+  padding-bottom: 8vh;
 }
 
 @media (max-width: 800px) {
