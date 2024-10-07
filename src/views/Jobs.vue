@@ -1,5 +1,4 @@
 <script setup>
-
 import Footer from '@/components/Footer.vue';
 import Navbar from '@/components/Navbar.vue';
 </script>
@@ -31,30 +30,53 @@ import Navbar from '@/components/Navbar.vue';
   height: 100vh;
   gap: 8rem;
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
   img {
     width: 25%;
   }
 
-  h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: Syne, sans-serif;
-  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 
-  p {
-    font-size: 1.2rem;
-  }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: Syne, sans-serif;
+    }
 
-  .callToAction {
-    color: white;
-    padding: 1rem 2rem;
-    width: fit-content;
+    p {
+      font-size: 1.2rem;
+    }
+
+    .callToAction {
+      color: white;
+      padding: 0.8rem 1.5rem;
+      width: fit-content;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .noJobs {
+    flex-direction: column;
+    gap: 3rem;
+
+    img {
+      width: 50%;
+    }
+
+    .text {
+      gap: 0.7rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
   }
 }
 
