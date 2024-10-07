@@ -22,8 +22,8 @@ export default {
   justify-content: center;
 
   p {
-    text-align: justify;
-    text-transform: uppercase;
+    text-align: left;
+    // text-transform: uppercase;
     font-family: Syne, sans-serif;
     font-size: 32px;
     width: 70%;

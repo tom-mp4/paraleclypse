@@ -41,7 +41,6 @@
   background-image: url('../../assets/img/paradoxa-background.jpg');
   background-size: cover;
   background-position: bottom center;
-  border-radius: 25px;
   padding: 4rem 0;
   width: 90%;
   height: 80vh;
@@ -93,7 +92,6 @@
 @media (max-width: 800px) {
   .projects {
     padding: 2rem 0;
-    border-radius: 20px;
     width: 90%;
     height: 70vh;
 

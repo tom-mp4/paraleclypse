@@ -29,8 +29,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border-radius: 25px;
   height: 50vh;
   width: 90%;
   background-image: url('../../assets/img/cinema.jpg');
@@ -69,7 +67,6 @@
 @media (max-width: 800px) {
   .cinemaMap {
     height: 70vh;
-    border-radius: 20px;
     align-items: flex-end;
     padding: 2rem 0;
 

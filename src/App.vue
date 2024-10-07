@@ -26,7 +26,6 @@
   width: 50%;
   padding: 1rem 0;
   background-color: #f06c13;
-  border-radius: 10px;
   color: #1f1f1f;
   font-weight: 600;
   font-family: Syne, sans-serif;

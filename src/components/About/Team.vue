@@ -17,7 +17,7 @@
         </p>
       </div>
       <div class="line"></div>
-      <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
+      <img src="@/assets/team/tmartin.jpg" class="teamImg" alt="Photo de Tom Martin">
     </div>
     <div class="teamMember">
       <div class="teamInfos">
@@ -29,9 +29,9 @@
         </p>
       </div>
       <div class="line"></div>
-      <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
+      <img src="@/assets/team/cmix.jpeg" class="teamImg" alt="Photo de Clément Mix">
     </div>
-    <div class="teamMember">
+    <!--<div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
           Gaspard Inchauspé
@@ -42,18 +42,17 @@
       </div>
       <div class="line"></div>
       <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
-    </div>
+    </div>-->
   </div>
 </section>
 </template>
 
 <style scoped lang="scss">
 
-.team{
+.team {
   display: flex;
   justify-content: space-between;
   padding: 0 5rem;
-  gap: 3rem;
 
   .title {
     font-family: Syne, sans-serif;
@@ -75,15 +74,35 @@
         min-width: fit-content;
       }
 
-      .teamImg {
-        width: 5%;
-        border-radius: 9999px;
-      }
-
       .line {
         height: 1px;
         width: 100%;
         background-color: #aeaeae;
+      }
+
+      .teamImg {
+        height: 7vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .team {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 0;
+
+    .teamContainer {
+      width: 80%;
+
+      .line {
+        display: none;
+      }
+
+      .teamImg {
+        display: none;
       }
     }
   }

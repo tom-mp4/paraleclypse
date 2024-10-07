@@ -87,7 +87,7 @@ export default {
   }
 
   .top {
-    gap: 10vh;
+    gap: 1vh;
   }
 }
 
