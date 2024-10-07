@@ -12,12 +12,12 @@
         <h3 class="teamName">
           Tom Martin
         </h3>
-        <im class="teamRole">
+        <p class="teamRole">
           Président - Responsable de programmation
-        </im>
+        </p>
       </div>
       <div class="line"></div>
-      <p>Contacter</p>
+      <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
     </div>
     <div class="teamMember">
       <div class="teamInfos">
@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="line"></div>
-      <p>Contacter</p>
+      <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
     </div>
     <div class="teamMember">
       <div class="teamInfos">
@@ -41,7 +41,7 @@
         </p>
       </div>
       <div class="line"></div>
-      <p>Contacter</p>
+      <img src="@/assets/img/cinema.jpg" class="teamImg" alt="Photo des membres de l'équipe">
     </div>
   </div>
 </section>
@@ -73,6 +73,11 @@
 
       .teamInfos {
         min-width: fit-content;
+      }
+
+      .teamImg {
+        width: 5%;
+        border-radius: 9999px;
       }
 
       .line {
