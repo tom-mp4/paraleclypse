@@ -82,6 +82,7 @@
 
       .teamImg {
         height: 7vh;
+        border-radius: 9999px;
       }
     }
   }
