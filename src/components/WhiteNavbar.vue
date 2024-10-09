@@ -57,6 +57,13 @@
   .navbar {
     flex-direction: column;
     gap: 1rem;
+    padding: 2.5rem 0;
+
+    .button {
+      display: flex;
+      justify-content: center;
+      width: fit-content;
+    }
   }
 
   #socialButton {

@@ -81,6 +81,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    padding: 0 2rem;
 
     h2 {
       text-align: center;

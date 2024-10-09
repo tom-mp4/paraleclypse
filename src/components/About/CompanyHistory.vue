@@ -33,8 +33,7 @@
   width: 100%;
 
   p {
-    width: 30%;
-    text-align: justify;
+    width: 35%;
     font-size: 1.2em;
   }
 }
@@ -42,7 +41,7 @@
 @media (max-width: 800px) {
   .companyHistory {
     p {
-      width: 70%;
+      width: 80%;
       font-size: 16px;
     }
   }

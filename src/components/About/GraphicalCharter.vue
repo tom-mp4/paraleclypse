@@ -37,7 +37,6 @@
       display: flex;
       flex-direction: column;
       width: 30%;
-      text-align: justify;
       gap: 1.2rem;
 
       h3 {
@@ -77,6 +76,7 @@
       flex-direction: column;
       align-items: center;
       gap: 3rem;
+      padding: 0 2rem;
 
       h2 {
         text-align: center;
