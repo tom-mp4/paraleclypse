@@ -16,7 +16,7 @@
   width: 100%;
 
   h1 {
-    font-size: 7.5vw;
+    font-size: 7.4vw;
     text-transform: uppercase;
     color:#1f1f1f;
     font-family: Syne, sans-serif
