@@ -55,7 +55,6 @@
     p {
       line-height: 25px;
       font-size: 22px;
-      text-align: justify;
     }
 
     #cinemaMapButton {
