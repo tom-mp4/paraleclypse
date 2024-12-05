@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
 
-    width: 70%;
+    width: 60%;
     gap: 15px;
 
     color: white;
@@ -54,7 +54,7 @@
 
     p {
       line-height: 25px;
-      font-size: 22px;
+      font-size: 18px;
     }
 
     #cinemaMapButton {
