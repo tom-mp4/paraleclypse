@@ -15,8 +15,8 @@
         </div>
       </div>
       <div class="videoBox">
-        <video autoplay muted loop class="presentingVideo">
-          <source class="videoBackground" src="@/assets/video/background.mp4" type="video/mp4">
+        <video autoplay muted loop playsinline class="presentingVideo">
+          <source src="@/assets/video/background.mp4" type="video/mp4">
         </video>
       </div>
     </div>
