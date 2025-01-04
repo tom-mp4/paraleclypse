@@ -7,7 +7,7 @@
       <img src="@/assets/logo/logo-white.png" alt="Logo de menu paraleclypse blanc">
     </router-link>
     <div class="button">
-      <router-link class="nav" to="https://seancesfractures.fr">fractures</router-link>
+      <a class="nav" href="https://seancesfractures.fr">fractures</a>
       <router-link class="nav" to="/about">à propos</router-link>
       <router-link class="nav" to="/contact">contact</router-link>
     </div>
