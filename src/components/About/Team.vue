@@ -22,10 +22,24 @@
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
+          Victoire Vallois
+        </h3>
+        <p class="teamRole">
+          Responsable de développement - Exploitation
+        </p>
+      </div>
+      <div class="line"></div>
+      <img src="@/assets/img/cinema-illustration.jpg"
+           class="teamImg"
+           alt="Photo des membres de l'équipe">
+    </div>
+    <div class="teamMember">
+      <div class="teamInfos">
+        <h3 class="teamName">
           Clément Mix
         </h3>
         <p class="teamRole">
-          Responsable du développement exploitation
+          Assistant de programmation
         </p>
       </div>
       <div class="line"></div>
