@@ -11,7 +11,7 @@
           travaillons des oeuvres de fiction et de documentaire.
         </p>
         <div class="callToActionButtons">
-          <a href="https://seancesfractures.fr" class="callToAction">découvrir</a>
+          <a target="_blank" href="https://seancesfractures.fr" class="callToAction">découvrir</a>
         </div>
       </div>
       <div class="videoBox">
