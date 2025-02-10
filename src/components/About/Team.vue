@@ -17,7 +17,7 @@
         </p>
       </div>
       <div class="line"></div>
-      <img src="@/assets/team/tmartin.jpg" class="teamImg" alt="Photo de Tom Martin">
+      <img src="@/assets/team/tmartin.png" class="teamImg" alt="Photo de Tom Martin">
     </div>
     <div class="teamMember">
       <div class="teamInfos">
@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="line"></div>
-      <img src="@/assets/img/cinema-illustration.jpg"
+      <img src="@/assets/team/vvallois.png"
            class="teamImg"
            alt="Photo des membres de l'équipe">
     </div>
