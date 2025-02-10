@@ -21,7 +21,7 @@
       <div class="footerMenu">
         <h3>Ressources</h3>
         <div>
-          <a href="https://seancesfractures.fr">Séances Fractures</a>
+          <a target="_blank" href="https://seancesfractures.fr">Séances Fractures</a>
           <!--<a href="https://blog.paraleclypse.com" target="_blank">Blog & Questions Fréquentes</a>
           <a href="https://form.typeform.com/to/wCXaFMTe">Signalement</a>-->
           <router-link to="/about">Informations & Entreprise</router-link>
