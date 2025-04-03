@@ -5,16 +5,19 @@
   <div class="movies">
     <div class="movieGrid">
       <a class="moviePoster">
-        <img src="@/assets/posters/adial.jpg" alt="">
+        <img src="@/assets/posters/lfaf.jpg" alt="Affiche La Fleur Au Fusil">
       </a>
       <a class="moviePoster">
-        <img src="@/assets/posters/app.jpg" alt="">
+        <img src="@/assets/posters/adial.jpg" alt="Affiche A Day In A Life">
       </a>
       <a class="moviePoster">
-        <img src="@/assets/posters/maurice.jpg" alt="">
+        <img src="@/assets/posters/app.jpg" alt="Affiche A Period Piece">
       </a>
       <a class="moviePoster">
-        <img src="@/assets/posters/amh.png" alt="">
+        <img src="@/assets/posters/maurice.jpg" alt="Affiche Maurice's Bar">
+      </a>
+      <a class="moviePoster">
+        <img src="@/assets/posters/amh.png" alt="Affiche À Marée Haute">
       </a>
     </div>
   </div>
