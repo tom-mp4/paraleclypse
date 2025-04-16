@@ -19,7 +19,7 @@
       <div class="line"></div>
       <img src="@/assets/team/tmartin.png" class="teamImg" alt="Photo de Tom Martin">
     </div>
-    <div class="teamMember">
+    <!--<div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
           Victoire Vallois
@@ -32,7 +32,7 @@
       <img src="@/assets/team/vvallois.png"
            class="teamImg"
            alt="Photo des membres de l'équipe">
-    </div>
+    </div>-->
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">

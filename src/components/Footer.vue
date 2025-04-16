@@ -7,7 +7,7 @@
       <div class="footerColumn">
         <img src="@/assets/logo/logo-white.png" alt="White paraleclypse logo">
         <p>
-          Redécouvrez le cinéma, réinventez votre expérience.
+          Paraleclypse Distribution est membre de UniFrance.
         </p>
         <div class="socials">
           <a href="https://instagram.com/paraleclypse" target="_blank">
