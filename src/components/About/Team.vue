@@ -36,10 +36,22 @@
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
-          Clément Mix
+          William Tésorière
         </h3>
         <p class="teamRole">
           Assistant de programmation
+        </p>
+      </div>
+      <div class="line"></div>
+      <img src="@/assets/team/wtesoriere.png" class="teamImg" alt="Photo de William Tésorière">
+    </div>
+    <div class="teamMember">
+      <div class="teamInfos">
+        <h3 class="teamName">
+          Clément Mix
+        </h3>
+        <p class="teamRole">
+          Responsable de développement
         </p>
       </div>
       <div class="line"></div>
