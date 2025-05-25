@@ -5,6 +5,9 @@
   <div class="movies">
     <div class="movieGrid">
       <a class="moviePoster">
+        <img src="@/assets/posters/lbc.jpg" alt="Affiche Les Belles Cicatrices">
+      </a>
+      <a class="moviePoster">
         <img src="@/assets/posters/lfaf.jpg" alt="Affiche La Fleur Au Fusil">
       </a>
       <a class="moviePoster">
