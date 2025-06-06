@@ -5,10 +5,10 @@
   <header class="header">
     <div class="landing">
       <div class="landingLeft">
-        <h1 class="landingTitle">Découvrez le court-métrage au cinéma</h1>
+        <h1 class="landingTitle">Distribution indépendante de films de court-métrages</h1>
         <p class="landingDescription">
-          Paraleclypse est une société de distribution et de production audiovisuelle. Nous
-          travaillons des oeuvres de fiction et de documentaire.
+          Paraleclypse est une société de distribution audiovisuelle. Fiction, documentaire et
+          animation pour le cinéma, les festivals et la vente.
         </p>
         <div class="callToActionButtons">
           <a target="_blank" href="https://seancesfractures.fr" class="callToAction">découvrir</a>
