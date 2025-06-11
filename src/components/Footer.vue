@@ -7,7 +7,7 @@
       <div class="footerColumn">
         <img src="@/assets/logo/logo-white.png" alt="White paraleclypse logo">
         <p>
-          Paraleclypse Distribution est membre de UniFrance.
+          Paraleclypse Distribution est membre d'UniFrance.
         </p>
         <div class="socials">
           <a href="https://instagram.com/paraleclypse" target="_blank">
