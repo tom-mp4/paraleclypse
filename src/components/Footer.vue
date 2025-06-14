@@ -64,7 +64,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #1f1f1f;
+  background-color: #0b0b0b;
 
   .footerTop {
     display: flex;
