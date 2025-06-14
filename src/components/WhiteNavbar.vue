@@ -8,7 +8,7 @@
     </router-link>
     <div class="button">
       <a class="nav" target="_blank" href="https://seancesfractures.fr">fractures</a>
-      <router-link class="nav" to="/movies">catalogue – line up</router-link>
+      <router-link class="nav" to="/movies">line up</router-link>
       <router-link class="nav" to="/about">à propos</router-link>
       <router-link class="nav" to="/contact">contact</router-link>
     </div>
@@ -57,13 +57,15 @@
 
   .navbar {
     flex-direction: column;
-    gap: 1rem;
-    padding: 2.5rem 0;
+    gap: 1.5rem;
+    padding: 2rem 0;
 
     .button {
       display: flex;
       justify-content: center;
       width: fit-content;
+      font-size: 14px;
+
     }
   }
 
