@@ -22,7 +22,7 @@ import Footer from '@/components/Footer.vue';
 .contact {
   display: flex;
   flex-direction: column;
-  background-color: #1f1f1f;
+  background-color: #0b0b0b;
 
   .marquee {
     height: 69vh;

@@ -1,7 +1,7 @@
 <template>
   <div class="presentingVideo">
     <video autoplay muted loop playsinline>
-      <source src="@/assets/video/trailer2.mp4" type="video/mp4">
+      <source src="@/assets/video/background3.mp4" type="video/mp4">
     </video>
   </div>
 </template>

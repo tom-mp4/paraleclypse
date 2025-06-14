@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <section class="top">
-      <Navbar />
-      <Landing />
+      <WhiteNavbar id="nav" />
+      <VideoLanding />
       <div id="discover"></div>
     </section>
     <div>
@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import Landing from '@/components/Home/Landing.vue';
 import CompanyDescription from '@/components/Home/CompanyDescription.vue';
 import Menu from '@/components/Home/Menu.vue';
 import CinemaMap from '@/components/Home/CinemaMap.vue';
@@ -27,19 +26,20 @@ import { gsap } from 'gsap';
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextPlugin } from 'gsap/TextPlugin';
-import Navbar from '@/components/Navbar.vue';
+import VideoLanding from '@/components/Home/VideoLanding.vue';
+import WhiteNavbar from '@/components/WhiteNavbar.vue';
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 export default {
   name: 'Home',
   components: {
-    Navbar,
+    WhiteNavbar,
+    VideoLanding,
     Footer,
     CinemaMap,
     Menu,
     CompanyDescription,
-    Landing,
   },
   data: () => ({
     build: [
@@ -48,7 +48,7 @@ export default {
           + ' La société distribue un catalogue de court-métrages de tous genres.'
           + ' Fiction, documentaire, animation, expérimental, films de fin d\'études,'
           + ' notre objectif est de faire vivre ces œuvres aux travers des festivals et des diffuseurs internationaux.'
-          + ' Depuis 2024, Paraleclypse distribue aussi son catalogue en salle de cinéma, au travers de programmes thématique ;'
+          + ' Depuis 2024, Paraleclypse distribue aussi son catalogue en salle de cinéma, au travers de programmes thématiques ;'
           + ' les séances Fractures.',
       },
     ],
@@ -69,9 +69,13 @@ export default {
 .top {
   display: flex;
   flex-direction: column;
-  gap: 3vh;
-  background-color: #ffe6dc;
-  padding-bottom: 8vh;
+  width: 100%;
+
+  #nav {
+    z-index: 2;
+    position: absolute;
+    width: 90vw;
+  }
 }
 
 @media (max-width: 800px) {
