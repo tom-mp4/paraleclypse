@@ -3,7 +3,6 @@
 
 <template>
   <div class="mouseContainer">
-
     <div class="mouse">
       <div class="wheel"></div>
     </div>
@@ -42,10 +41,10 @@ body {
 }
 
 @keyframes scroll {
-  0%   { top: 6px; opacity: 0;}
-  20% { opacity: 1; }
-  80% { opacity: 1;}
-  100% {top: 20px; opacity: 0;}
+  100%   { top: 6px; opacity: 0;}
+  80% { opacity: 1; }
+  20% { opacity: 1;}
+  0% {top: 20px; opacity: 0;}
 }
 
 </style>
