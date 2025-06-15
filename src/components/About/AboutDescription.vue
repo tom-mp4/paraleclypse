@@ -7,7 +7,7 @@
     <p>
       Paraleclypse est un studio indépendant de distribution. Nous travaillons avec
       des oeuvres de fiction, d'animation et de documentaire pour le cinéma, les festivals et les
-      ventes. Notre objectif est de faire découvrir un cinéma différent, dont le format court en est
+      ventes. Notre objectif est de faire découvrir un cinéma différent, dont le format court est
       le medium.
     </p>
   </section>

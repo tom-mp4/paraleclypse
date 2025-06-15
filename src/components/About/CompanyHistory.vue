@@ -5,19 +5,20 @@
 <template>
   <section class="companyHistory">
     <p>
-      Paraleclypse a été créé en 2020 par Tom Martin et Léo Prudhomme. Respectivement réalisateur
-      et artiste 3D, l'idée était d'avoir une structure permettant de signer collectivement un
-      premier clip vidéo.
+      Paraleclypse naît en 2020 de la collaboration entre Tom Martin et Léo Prudhomme,
+      respectivement réalisateur et artiste 3D. L'idée était de créer une structure permettant
+      de développer des projets artistiques dans le sud-ouest de la France.
     </p>
     <p>
-      Depuis les ambitions ont évoluées et le projet a changé.
-      Paraleclypse est devenue une société de production et de distribution axée autour de la
-      création de fiction et particulièrement de court-métrage.
+      Depuis, les ambitions ont évolué et le projet a changé. En 2024, Paraleclypse est
+      devenue une société de distribution avec la solide conviction de rendre accessibles
+      les films de court-métrage au grand public.
     </p>
     <p>
-      Aujourd'hui, Paraleclypse, à travers les séances Fractures, propose de distribuer le
-      court-métrage dans les cinémas. L'objectif est de connecter un publique curieux de
-      découvrir un cinéma nouveau, jeune et audacieux, sous une toute nouvelle forme.
+      Aujourd'hui, Paraleclypse, à travers les séances Fractures, propose de diffuser le
+      court-métrage dans les cinémas. Mais la société s'inscrit aussi dans une démarche plus
+      conventionnelle, à travers ses activités de distribution pour les festivals et les
+      ventes internationales.
     </p>
   </section>
 </template>

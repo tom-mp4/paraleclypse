@@ -3,6 +3,7 @@
     <section class="top">
       <WhiteNavbar id="nav" />
       <VideoLanding />
+      <ScrollInvitation id="scroll" />
       <div id="discover"></div>
     </section>
     <div>
@@ -28,12 +29,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextPlugin } from 'gsap/TextPlugin';
 import VideoLanding from '@/components/Home/VideoLanding.vue';
 import WhiteNavbar from '@/components/WhiteNavbar.vue';
+import ScrollInvitation from '@/components/Home/ScrollInvitation.vue';
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 export default {
   name: 'Home',
   components: {
+    ScrollInvitation,
     WhiteNavbar,
     VideoLanding,
     Footer,
@@ -76,6 +79,12 @@ export default {
     z-index: 2;
     position: absolute;
     width: 90vw;
+  }
+
+  #scroll {
+    z-index: 2;
+    position: absolute;
+    top: 90vh;
   }
 }
 
