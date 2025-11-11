@@ -13,11 +13,11 @@
           Tom Martin
         </h3>
         <p class="teamRole">
-          Président - Responsable de programmation
+          Président - Programmation & ventes internationales
         </p>
       </div>
       <div class="line"></div>
-      <img src="@/assets/team/tmartin.png" class="teamImg" alt="Photo de Tom Martin">
+      <img src="@/assets/team/tmartin1.png" class="teamImg" alt="Photo de Tom Martin">
     </div>
     <!--<div class="teamMember">
       <div class="teamInfos">
@@ -36,6 +36,19 @@
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
+          Diane Schilling
+        </h3>
+        <p class="teamRole">
+          Chargée des festivals et relations publiques
+        </p>
+      </div>
+      <div class="line"></div>
+      <!--
+      <img src="@/assets/team/wtesoriere.png" class="teamImg" alt="Photo de William Tésorière">-->
+    </div>
+    <div class="teamMember">
+      <div class="teamInfos">
+        <h3 class="teamName">
           William Tésorière
         </h3>
         <p class="teamRole">
@@ -48,6 +61,19 @@
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
+          Yassir Moustakim
+        </h3>
+        <p class="teamRole">
+          Comptabilité et gestion
+        </p>
+      </div>
+      <div class="line"></div>
+      <!--
+      <img src="@/assets/team/wtesoriere.png" class="teamImg" alt="Photo de William Tésorière">-->
+    </div>
+    <!--<div class="teamMember">
+      <div class="teamInfos">
+        <h3 class="teamName">
           Clément Mix
         </h3>
         <p class="teamRole">
@@ -56,7 +82,7 @@
       </div>
       <div class="line"></div>
       <img src="@/assets/team/cmix.jpeg" class="teamImg" alt="Photo de Clément Mix">
-    </div>
+    </div>-->
     <!--<div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
