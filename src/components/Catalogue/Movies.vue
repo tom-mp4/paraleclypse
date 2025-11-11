@@ -12,6 +12,9 @@
       </div>
       <div class="movieGrid">
         <a class="moviePoster">
+          <img src="@/assets/posters/19rpf.jpg" alt="Affiche 19 rue Portefoin">
+        </a>
+        <a class="moviePoster">
           <img src="@/assets/posters/qln.png" alt="Affiche Quand la Nuit">
         </a>
         <a class="moviePoster">
