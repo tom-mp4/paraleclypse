@@ -12,6 +12,15 @@
       </div>
       <div class="movieGrid">
         <a class="moviePoster">
+          <img src="@/assets/posters/qln.png" alt="Affiche Quand la Nuit">
+        </a>
+        <a class="moviePoster">
+          <img src="@/assets/posters/smz.jpg" alt="Affiche Summer & Zima">
+        </a>
+        <a class="moviePoster">
+          <img src="@/assets/posters/slt.jpeg" alt="Affiche Solastalgie">
+        </a>
+        <a class="moviePoster">
           <img src="@/assets/posters/atd.jpg" alt="Affiche All This Death">
         </a>
         <a class="moviePoster">
