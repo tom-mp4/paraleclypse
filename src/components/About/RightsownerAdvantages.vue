@@ -14,14 +14,13 @@
           diffusion pour leurs œuvres.<br><br>
           Au-delà des festivals, les séances Fractures offrent une
           visibilité auprès d’un large public, une interaction avec
-          la critique et la possibilité d’être découvert par des
-          professionnels de l’industrie cinématographique.<br><br>
+          la critique.<br><br>
           De plus, Paraleclypse garantit une rémunération
           stable et équitable, soutenant ainsi financièrement de
           nouveaux projets.
         </p>
       </div>
-      <a class="roButton" href="">
+      <a class="roButton" target="_blank" href="https://form.typeform.com/to/iDYvb5en">
         Proposer mon film
         <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
       </a>

@@ -19,7 +19,7 @@
           jeunesse.
         </p>
       </div>
-      <a class="cinemaButton" href="">
+      <a class="cinemaButton" target="_blank" href="https://form.typeform.com/to/Z5kDnh8W">
         Rejoindre le réseau Paraleclypse
         <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
       </a>

@@ -15,7 +15,7 @@
       </p>
       <a id="cinemaMapButton"
          target="_blank"
-         href="/fractures"
+         href="https://seancesfractures.fr"
          class="callToAction">
         découvrir la sélection
       </a>
