@@ -45,7 +45,7 @@
     <div id="footerLine" class="line"></div>
     <div class="footerBottom">
       <p>
-        © Paraleclypse SAS - Tous droits réservés - 2025
+        © Paraleclypse SAS - Tous droits réservés - 2026
       </p>
       <a id="footerToTopButton"
          href="#">
