@@ -20,6 +20,9 @@
         découvrir la sélection
       </a>
     </div>
+    <div class="cinemaMapIllustration">
+      <img src="" alt="" class="cinemaIllustration">
+    </div>
   </section>
 </template>
 
@@ -31,18 +34,18 @@
   align-items: center;
   height: 50vh;
   width: 90%;
-  background-image: url('../../assets/img/cinema.jpg');
+  /*background-image: url('../../assets/img/cinema.jpg');
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom center;*/
 
   .cinemaMapContent {
     display: flex;
     flex-direction: column;
 
-    width: 60%;
+    width: 70%;
     gap: 15px;
 
-    color: white;
+    color: black;
 
     .mapTitle {
       font-family: Syne, sans-serif;

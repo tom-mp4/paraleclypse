@@ -29,16 +29,17 @@
   justify-content: center;
   width: 50%;
   padding: 1rem 0;
-  background-color: #f06c13;
+  background-color: transparent;
+  border: black solid 1px;
   color: #1f1f1f;
   font-weight: 600;
   font-family: Syne, sans-serif;
   text-transform: uppercase;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 
   &:hover {
-    background-color: #d96117;
     color: white;
+    background-color: #1f1f1f;
   }
 }
 
