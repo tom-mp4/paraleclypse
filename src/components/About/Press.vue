@@ -6,14 +6,35 @@
   <section class="press">
     <h2>Presse</h2>
     <div class="pressLink">
-      <h3>sud ouest</h3>
+      <h3>france</h3>
       <div>
         <a class="pressButton" href="">
-          Paradoxa au cinéma
+          Paraleclypse - interview
+          <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
+        </a>
+        <a class="pressButton" href="">
+          Fractures - Première édition
           <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
         </a>
         <a class="pressButton" href="">
           Première diffusion
+          <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
+        </a>
+        <a class="pressButton" href="">
+          Paradoxa au cinéma
+          <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
+        </a>
+      </div>
+    </div>
+    <div class="pressLink">
+      <h3>international</h3>
+      <div>
+        <a class="pressButton" href="">
+          Les Others - Granier
+          <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
+        </a>
+        <a class="pressButton" href="">
+          Interview de Fadi Syriani
           <img class="arrow" src="@/assets/icons/up-right-arrow.png" alt="Fleche haut droite">
         </a>
       </div>

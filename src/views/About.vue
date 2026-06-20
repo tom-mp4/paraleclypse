@@ -7,6 +7,7 @@ import Footer from '@/components/Footer.vue';
 // import GraphicalCharter from '@/components/About/GraphicalCharter.vue';
 import CinemaAdvantages from '@/components/About/CinemaAdvantages.vue';
 import PublicAdvantages from '@/components/About/PublicAdvantages.vue';
+// import Press from '@/components/About/Press.vue';
 import RightsownerAdvantages from '@/components/About/RightsownerAdvantages.vue';
 import Team from '@/components/About/Team.vue';
 </script>
@@ -30,6 +31,8 @@ import Team from '@/components/About/Team.vue';
     <GraphicalCharter />-->
     <div id="divider" class="greyLine"></div>
     <Team />
+    <!-- <div id="divider" class="greyLine"></div>
+    <Press /> -->
     <Footer />
   </div>
 </template>

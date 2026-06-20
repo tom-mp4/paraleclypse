@@ -5,13 +5,12 @@
   <section class="cinemaMap">
     <div class="cinemaMapContent">
       <h2 class="mapTitle">
-        Les court-métrages sur le devant de la scène.
+        Les courts-métrages en salle.
       </h2>
       <p>
-        Paraleclypse propose les séances Fractures dans tout les cinémas partenaires.
-        Notre programmation trimestrielle se compose de productions originales Paraleclypse et
-        d'autre projets que nous accompagnons. L'objectif est de provoquer la rencontre entre un
-        contenu nouveau et un public curieux.
+        Paraleclypse propose des séances de courts-métrages avec ses cinémas partenaires.
+        Notre programmation s'articulent autour de thématique composées d'œuvres distribuées par
+        Paraleclypse et d'autre projets.
       </p>
       <a id="cinemaMapButton"
          target="_blank"
@@ -21,7 +20,10 @@
       </a>
     </div>
     <div class="cinemaMapIllustration">
-      <img src="" alt="" class="cinemaIllustration">
+      <img src="@/assets/img/lucernaire.jpg"
+           alt="Photo du cinéma Lucernaire à Paris"
+           class="cinemaIllustration"
+      >
     </div>
   </section>
 </template>
@@ -30,10 +32,10 @@
 
 .cinemaMap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 50vh;
-  width: 90%;
+  width: 80vw;
   /*background-image: url('../../assets/img/cinema.jpg');
   background-size: cover;
   background-position: bottom center;*/
@@ -42,7 +44,7 @@
     display: flex;
     flex-direction: column;
 
-    width: 70%;
+    width: 55%;
     gap: 15px;
 
     color: black;
@@ -51,7 +53,7 @@
       font-family: Syne, sans-serif;
       text-transform: uppercase;
       font-size: 36px;
-      font-weight: 700;
+      font-weight: 600;
       line-height: 40px;
     }
 
@@ -64,18 +66,28 @@
       width: 40%;
     }
   }
+
+  .cinemaMapIllustration {
+    width: 35%;
+
+    .cinemaIllustration {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 800px) {
   .cinemaMap {
-    height: 70vh;
-    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
     padding: 2rem 0;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
 
     .cinemaMapContent {
-      width: 90%;
       align-items: center;
-      text-align: center;
+      width: 90%;
 
       .mapTitle {
         font-size: 24px;
@@ -89,7 +101,12 @@
 
       #cinemaMapButton {
         width: 70%;
+        font-size: 0.7rem;
       }
+    }
+
+    .cinemaMapIllustration {
+      width: 90%;
     }
   }
 }

@@ -45,7 +45,6 @@
   }
 
   .callToAction {
-    color: white;
     padding: 1rem 2rem;
     width: fit-content;
   }

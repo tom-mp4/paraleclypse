@@ -8,7 +8,7 @@
         Politique de confidentialité
       </h1>
       <p>
-        Mise à jour le 7/10/2024
+        Mise à jour le 19/06/2026
       </p>
     </div>
     <p>

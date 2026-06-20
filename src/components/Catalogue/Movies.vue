@@ -1,121 +1,212 @@
-<script setup>
-</script>
-
 <template>
-  <div class="movies">
-    <div class="catalog">
-      <div class="movieGridHeader">
-        <h2 class="movieGridTitle">
-          Ventes & Festivals
-        </h2>
-        <div class="line"></div>
-      </div>
-      <div class="movieGrid">
-        <a class="moviePoster">
-          <img src="@/assets/posters/19rpf.jpg" alt="Affiche 19 rue Portefoin">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/qln.png" alt="Affiche Quand la Nuit">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/smz.jpg" alt="Affiche Summer & Zima">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/slt.jpeg" alt="Affiche Solastalgie">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/atd.jpg" alt="Affiche All This Death">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/har.jpg" alt="Affiche Harmonie">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/gdf.jpg" alt="Affiche Générique de Fin">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/lfaf.jpg" alt="Affiche La Fleur Au Fusil">
-        </a>
-      </div>
-    </div>
-    <div class="catalog">
-      <div class="movieGridHeader">
-        <h2 class="movieGridTitle">
-          En salle - Programme de courts
-        </h2>
-        <div class="line"></div>
-      </div>
-      <div class="movieGrid">
-        <a class="moviePoster">
-          <img src="@/assets/posters/lbc.jpg" alt="Affiche Les Belles Cicatrices">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/adial.jpg" alt="Affiche A Day In A Life">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/app.jpg" alt="Affiche A Period Piece">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/maurice.jpg" alt="Affiche Maurice's Bar">
-        </a>
-        <a class="moviePoster">
-          <img src="@/assets/posters/amh.png" alt="Affiche À Marée Haute">
-        </a>
-      </div>
+  <div class="filmLayout">
+    <nav class="filmList">
+      <section
+        v-for="group in groupedFilms"
+        :key="group.label"
+        class="filmGroup"
+      >
+        <h2 class="filmGroup__label">{{ group.label }}</h2>
+        <ul role="list">
+          <li
+            v-for="film in group.films"
+            :key="film.id"
+            class="filmItem"
+            @mouseenter="activeFilm = film"
+            @mouseleave="activeFilm = null"
+          >
+            <span
+              class="filmTitle"
+              :class="{ 'is-active': activeFilm?.id === film.id }"
+            >
+              {{ film.title }}
+            </span>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <div class="filmVisual" aria-hidden="true">
+      <Transition name="film-fade" mode="out-in">
+        <img
+          v-if="activeFilm?.poster"
+          :key="activeFilm.id"
+          :src="activeFilm.poster"
+          :alt="activeFilm.title"
+          class="filmPoster"
+          width="800"
+          height="600"
+          loading="eager"
+        />
+        <div v-else class="filmPosterEmpty" />
+      </Transition>
     </div>
   </div>
-
 </template>
 
-<style scoped lang="scss">
+<script setup>
+import { ref, computed } from 'vue';
 
-.movies {
+// eslint-disable-next-line no-undef
+const props = defineProps({
+  films: {
+    type: Array,
+    required: true,
+  },
+});
+
+const activeFilm = ref(null);
+
+const GROUPS = [
+  { key: 'festival', label: 'Films en festival & ventes internationales' },
+  { key: 'salle', label: 'Films en salle' },
+];
+
+let groupedFilms;
+// eslint-disable-next-line prefer-const
+groupedFilms = computed(() => GROUPS
+  .map((g) => ({
+    label: g.label,
+    films: props.films.filter((f) => f.category === g.key),
+  }))
+  .filter((g) => g.films.length > 0), // masque un groupe vide
+// eslint-disable-next-line function-paren-newline
+);
+
+</script>
+
+<style lang="scss" scoped>
+// Variables
+$transition-easing: cubic-bezier(0.16, 1, 0.3, 1);
+$transition-fast:   180ms $transition-easing;
+$transition-normal: 200ms $transition-easing;
+
+// Layout principal
+.filmLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+// Liste scrollable
+.filmList {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  overflow-y: auto;
+  padding: 2rem 2.5rem;
+  gap: 2rem;
+  cursor: pointer;
+  scrollbar-width: none;
 
-  .catalog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
-    .movieGridHeader {
-      display: flex;
-      flex-direction: column;
-      width: 90%;
-      gap: 0.6rem;
+  ul[role="list"] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
 
-      .movieGridTitle {
-        font-family: Syne, sans-serif;
-        font-weight: 600;
-        font-size: 1.6rem;
-      }
+// Groupe
+.filmGroup {
+  & + & {
+    margin-top: 2rem;       // espace entre les deux groupes
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-divider);
+  }
 
-      .line {
-        width: 40%;
-        border-bottom: black 1px solid;
-      }
-    }
+  &__label {
+    font-size: clamp(0.625rem, 0.5vw + 0.4rem, 0.75rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-faint);
+    margin-bottom: 0.75rem;
+  }
+}
 
-    .movieGrid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-      width: 90%;
+// Items
+.filmItem {
+  padding: 0.3rem 0;
 
-      .moviePoster {
-        width: 100%;
-        height: 100%;
-        background-color: #1f1f1f;
-        overflow: hidden;
+  &:hover .filmTitle {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-    }
+.filmTitle {
+  font-family: 'Syne', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  text-transform: uppercase;
+  transition: color $transition-fast;
+
+  &.is-active {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+// Visuel fixe
+.filmVisual {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--color-surface-offset);
+
+  .filmPoster,
+  .filmPosterEmpty {
+    width: 100%;
+    height: 100%;
+  }
+
+  .filmPoster {
+    object-fit: cover;
+    display: block;
+  }
+
+  .filmPosterEmpty {
+    background: var(--color-surface-offset);
+  }
+}
+
+// Transition Vue
+.film-fade {
+  &-enter-active,
+  &-leave-active {
+    transition: opacity $transition-normal;
+  }
+
+  &-enter-from,
+  &-leave-to {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .filmLayout {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .filmList {
+    gap: 0;
+  }
+
+  .filmTitle {
+    font-size: 1.3rem;
+  }
+
+  .filmVisual {
+    display: none;
   }
 }
 
