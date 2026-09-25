@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar.vue';
 import Movies from '@/components/Catalogue/Movies.vue';
 
 import lbelc from '@/assets/stills/lbelc.jpg';
-import grn from '@/assets/stills/grn.jpg';
+/* import grn from '@/assets/stills/grn.jpg'; */
 import lsep from '@/assets/stills/lsep.jpg';
 import ds from '@/assets/stills/ds.jpg';
 import rpf from '@/assets/stills/rpf.jpg';
@@ -31,7 +31,7 @@ import maur from '@/assets/stills/maur.jpg';
     </div>
     <Movies :films="[
       { id: 1, title: 'LE BANDIT ET LA COUTURIÈRE', category: 'festival', poster: lbelc },
-      { id: 2, title: 'GRANIER',                    category: 'festival', poster: grn },
+      /* { id: 2, title: 'GRANIER',                    category: 'festival', poster: grn }, */
       { id: 3, title: 'LE SOLEIL EST PARTI',        category: 'festival', poster: lsep },
       { id: 4, title: 'DIALOGUES SOLITAIRES',       category: 'festival', poster: ds },
       { id: 5, title: '19 RUE PORTEFOIN',           category: 'festival', poster: rpf },

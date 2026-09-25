@@ -33,7 +33,7 @@
            class="teamImg"
            alt="Photo des membres de l'équipe">
     </div>-->
-    <div class="teamMember">
+    <!--<div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">
           Diane Schilling
@@ -43,9 +43,8 @@
         </p>
       </div>
       <div class="line"></div>
-      <!--
-      <img src="@/assets/team/wtesoriere.png" class="teamImg" alt="Photo de William Tésorière">-->
-    </div>
+      <img src="@/assets/team/wtesoriere.png" class="teamImg" alt="Photo de William Tésorière">
+    </div>-->
     <div class="teamMember">
       <div class="teamInfos">
         <h3 class="teamName">

@@ -8,7 +8,7 @@
     </router-link>
     <div class="button">
       <a class="nav" target="_blank" href="https://seancesfractures.fr">fractures</a>
-      <router-link class="nav" to="/movies">line up</router-link>
+      <router-link class="nav" to="/film">line up</router-link>
       <router-link class="nav" to="/about">à propos</router-link>
       <router-link class="nav" to="/contact">contact</router-link>
     </div>

@@ -20,7 +20,7 @@
               :class="{ 'is-active': activeFilm?.id === film.id }"
             >
               {{ film.title }}
-            </span>
+            </span >
           </li>
         </ul>
       </section>
@@ -113,7 +113,7 @@ $transition-normal: 200ms $transition-easing;
 // Groupe
 .filmGroup {
   & + & {
-    margin-top: 2rem;       // espace entre les deux groupes
+    margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid var(--color-divider);
   }
@@ -133,9 +133,7 @@ $transition-normal: 200ms $transition-easing;
   padding: 0.3rem 0;
 
   &:hover .filmTitle {
-    color: var(--color-text);
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    color: #474747;
   }
 }
 
@@ -145,11 +143,10 @@ $transition-normal: 200ms $transition-easing;
   font-size: 3rem;
   text-transform: uppercase;
   transition: color $transition-fast;
+  color: black;
 
   &.is-active {
-    color: var(--color-text);
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    color: #474747;
   }
 }
 

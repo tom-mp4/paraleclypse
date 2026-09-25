@@ -24,7 +24,7 @@
           <a target="_blank" href="https://seancesfractures.fr">Séances Fractures</a>
           <!--<a href="https://blog.paraleclypse.com" target="_blank">Blog & Questions Fréquentes</a>
           <a href="https://form.typeform.com/to/wCXaFMTe">Signalement</a>-->
-          <router-link to="/movies">Catalogue</router-link>
+          <router-link to="/film">Catalogue</router-link>
           <router-link to="/about">Informations & Entreprise</router-link>
           <a target="_blank"
              href="https://fr.indeed.com/viewjob?jk=dbf71c2fbd657975&from=shareddesktop_copy">

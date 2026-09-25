@@ -6,6 +6,7 @@ import Jobs from '../views/Jobs.vue';
 import Privacy from '../views/Legals/Privacy.vue';
 import LegalNotice from '../views/Legals/LegalNotice.vue';
 import Catalogue from '../views/Catalogue.vue';
+import FilmDescription from '../views/FilmDescription.vue';
 
 const routes = [
   {
@@ -19,9 +20,14 @@ const routes = [
     component: Home,
   },
   {
-    path: '/movies',
+    path: '/film',
     name: 'Catalogue',
     component: Catalogue,
+  },
+  {
+    path: '/film/:id',
+    name: 'film',
+    component: FilmDescription,
   },
   {
     path: '/contact',
@@ -52,6 +58,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
+  scrollBehavior: () => ({ top: 0 }),
   routes,
 });
 
